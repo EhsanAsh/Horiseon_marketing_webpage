@@ -46,10 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* using a p element selector to change font size of all paragraph elements */
-p {
-    font-size: 16px;
-}
+
 /* using a figure element selector to add specific style to all figure container elements */
 figure {
     height: 800px;
@@ -57,6 +54,22 @@ figure {
     margin-bottom: 25px;
     background: center/cover url("../images/digital-marketing-meeting.jpg");
 }
+
+/* using a main element selector to add specific style to all main elements */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* using article element selector to add specific style to all article container elements */
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
 /* using class selector to add specific style to all elements with the class name of float-left */
 .float-left {
     float: left;
@@ -69,12 +82,18 @@ figure {
     margin-left: 25px;
     max-height: 200px;
 }
-/* using a main element selector to add specific style to all main elements */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+
+/* using h2 element selector to add specific style to all h2 elements */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
+
+/* using a p element selector to change font size of all paragraph elements */
+p {
+    font-size: 16px;
+}
+
 /* using aside element selector to add specific style to all side bar elements */
 aside {
     margin-right: 20px;
@@ -100,18 +119,7 @@ section img {
     margin: 10px auto;
     max-width: 150px;
 }
-/* using article element selector to add specific style to all article container elements */
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-}
-/* using h2 element selector to add specific style to all h2 elements */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /* using footer element selector to add specific style to all footer elements */
 footer {
     padding: 30px;
